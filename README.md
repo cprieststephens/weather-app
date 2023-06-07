@@ -1,7 +1,7 @@
 # Weather App
 This repository contains an app that I built as a project for Command Shift bootcamp. It displays information about the user's local weather forecast.
 
-This app was created using the NPX script `npx create-react-app weather-app`.
+This app was created using the npx script `create-react-app`.
 
 ## Getting started
 
