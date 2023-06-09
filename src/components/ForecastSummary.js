@@ -1,5 +1,3 @@
-import "../styles/App.css";
-
 function ForecastSummary(props) {
   const { date, description, icon, temperature } = props;
   return (
@@ -14,4 +12,4 @@ function ForecastSummary(props) {
   );
 }
 
-export default ForecastSummary();
+export default ForecastSummary;
