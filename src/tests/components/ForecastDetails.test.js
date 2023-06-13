@@ -20,7 +20,6 @@ describe("ForecastDetails", () => {
   it("renders correctly", () => {
     const { asFragment } = render(
       <ForecastDetails
-
         date={validDate}
         min-temperature={validProps.temperature.min}
         max-temperature={validProps.temperature.max}
@@ -35,7 +34,6 @@ describe("ForecastDetails", () => {
   it("renders correct values for props", () => {
     const { getByText } = render(
       <ForecastDetails
-        //date={validProps.date}
         date={validDate}
         min-temperature={validProps.temperature.min}
         max-temperature={validProps.temperature.max}
