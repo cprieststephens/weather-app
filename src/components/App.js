@@ -6,8 +6,10 @@ import ForecastDetails from "./ForecastDetails";
 
 import "../styles/App.css";
 
-function App({ forecasts, location }) {
-  const [selectedDate, setSelectedDate] = useState(forecasts[0].date);
+function App() {
+  const [forecasts, setForecasts] = useState([]);
+  const [location, setLocation] = useState({ city: "", country: ""});
+  const [selectedDate, setSelectedDate] = useState(0);
 
   const selectedForecast = forecasts.find(
     (forecast) => forecast.date === selectedDate
@@ -26,7 +28,7 @@ function App({ forecasts, location }) {
         forecasts={forecasts}
         onForecastSelect={handleForecastSelect}
       />
-      <ForecastDetails forecast={selectedForecast} />
+      {selectedForecast && <ForecastDetails forecast={selectedForecast} />}
     </div>
   );
 }
