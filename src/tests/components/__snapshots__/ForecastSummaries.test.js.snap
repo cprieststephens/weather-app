@@ -31,7 +31,7 @@ exports[`ForecastSummaries renders correctly 1`] = `
       <div
         class="forecast-summary__description"
       >
-        Stub description
+        Stub description 1
       </div>
       <button
         type="button"
@@ -65,7 +65,7 @@ exports[`ForecastSummaries renders correctly 1`] = `
       <div
         class="forecast-summary__description"
       >
-        Stub description
+        Stub description 2
       </div>
       <button
         type="button"
