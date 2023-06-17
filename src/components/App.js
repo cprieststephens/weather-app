@@ -14,16 +14,12 @@ function App() {
   const [selectedDate, setSelectedDate] = useState(0);
   const [searchText, setSearchText] = useState("");
 
-  useEffect(() => {
-    getForecast(setSelectedDate, setForecasts, setLocation);
-  }, []);
-
   const handleForecastSelect = (date) => {
     setSelectedDate(date);
   };
 
   const handleCitySearch = () => {
-    getForecast(setSelectedDate, setForecasts, setLocation);
+    getForecast(searchText, setSelectedDate, setForecasts, setLocation);
   };
 
   const selectedForecast = forecasts.find(
@@ -31,6 +27,10 @@ function App() {
   );
 
   const { city, country } = location;
+
+  useEffect(() => {
+    getForecast("Manchester", setSelectedDate, setForecasts, setLocation);
+  }, []);
 
   return (
     <div className="weather-app">
