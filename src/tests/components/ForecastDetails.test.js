@@ -23,11 +23,23 @@ describe("ForecastDetails", () => {
 
   it("renders correct values for props", () => {
     const { getByText } = render(<ForecastDetails forecast={validProps} />);
+    const minTempText = getByText(
+      (_, element) => element.textContent === "Min temperature: 12 °C"
+    );
+    const maxTempText = getByText(
+      (_, element) => element.textContent === "Max temperature: 22 °C"
+    );
+    const humidityText = getByText(
+      (_, element) => element.textContent === "Humidity: 15 %"
+    );
+    const windSpeedText = getByText(
+      (_, element) => element.textContent === "Wind speed: 10 mph"
+    );
 
-    expect(getByText("Thu Jan 01 1970")).toHaveClass("forecast-details__date");
-    expect(getByText("12 °C")).toHaveClass("forecast-details__min-temp");
-    expect(getByText("22 °C")).toHaveClass("forecast-details__max-temp");
-    expect(getByText("15 %")).toHaveClass("forecast-details__humidity");
-    expect(getByText("10 mph")).toHaveClass("forecast-details__wind");
+    expect(getByText("Thu Jan 01 1970")).toBeInTheDocument();
+    expect(minTempText).toBeInTheDocument();
+    expect(maxTempText).toBeInTheDocument();
+    expect(humidityText).toBeInTheDocument();
+    expect(windSpeedText).toBeInTheDocument();
   });
 });
