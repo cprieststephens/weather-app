@@ -1,3 +1,5 @@
+import "../styles/SearchForm.css";
+
 function SearchForm({ searchText, setSearchText, onSubmit }) {
   const handleInputChange = (event) => setSearchText(event.target.value);
   return (
