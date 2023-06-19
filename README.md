@@ -1,6 +1,6 @@
 # Weather App
 
-<img src="src\img\Screenshot.png" alt="Screenshot of Weather App interface" title="Weather App" width="400px><br>
+<img src="src/img/Screenshot.png" alt="Screenshot of Weather App interface" title="Weather App" width="400px"><br>
 
 I built this app using React and JavaScript as a project for Command Shift bootcamp. It was created using the npx script `create-react-app`. I wrote the tests using Jest and React Testing Library.
 
