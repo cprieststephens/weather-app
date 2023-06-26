@@ -1,5 +1,4 @@
-function LocationDetails(props) {
-  const { city, country, errorMessage } = props;
+function LocationDetails({ city, country, errorMessage }) {
   LocationDetails.defaultProps = {
     errorMessage: "",
   };

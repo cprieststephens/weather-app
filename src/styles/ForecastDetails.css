@@ -1,8 +1,12 @@
 .forecast-details {
-    align-self: center;
-    text-align: center;
+  align-self: center;
+  text-align: center;
 }
 
 .forecast-details__date {
-    font-size: 1.5em;
+  font-size: 1.5em;
+}
+
+.forecast-details__bold {
+  font-weight: bold;
 }

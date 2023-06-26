@@ -9,27 +9,35 @@ exports[`ForecastDetails renders correctly 1`] = `
       Thu Jan 01 1970
     </div>
     <div>
-      <strong>
-        Min temperature:
-      </strong>
-       12 °C
+      <span
+        class="forecast-details__bold"
+      >
+        Min temperature: 
+      </span>
+      12 °C
     </div>
     <div>
-      <strong>
-        Max temperature:
-      </strong>
-       22 °C
+      <span
+        class="forecast-details__bold"
+      >
+        Max temperature: 
+      </span>
+      22 °C
     </div>
     <div>
-      <strong>
+      <span
+        class="forecast-details__bold"
+      >
         Humidity:
-      </strong>
+      </span>
        15 %
     </div>
     <div>
-      <strong>
+      <span
+        class="forecast-details__bold"
+      >
         Wind speed:
-      </strong>
+      </span>
        10 mph
     </div>
   </div>

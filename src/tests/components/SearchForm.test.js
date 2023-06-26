@@ -3,8 +3,8 @@ import SearchForm from "../../components/SearchForm";
 
 describe("SearchForm", () => {
   const validProps = {
-    setSearchText: () => {},
-    handleCitySearch: () => {},
+    setSearchText: jest.fn(),
+    handleCitySearch: jest.fn(),
   };
 
   it("renders correctly", () => {
