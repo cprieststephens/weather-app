@@ -1,6 +1,9 @@
 .forecast-details {
   align-self: center;
   text-align: center;
+  background-color: #fff;
+  padding: 1em;
+  border-radius: 9px;
 }
 
 .forecast-details__date {

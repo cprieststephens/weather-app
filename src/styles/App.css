@@ -1,5 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
 .weather-app {
-  margin: 0 2em;
   display: flex;
   flex-direction: column;
+  font-family: 'Raleway', sans-serif;
+  background-color: #92d5fd;
+  margin: 1rem;
+  padding: 2rem;
+  border-radius: 9px;
 }
