@@ -1,7 +1,12 @@
 .forecast-summary {
+  background-color: #b3e2fe;
   text-align: center;
   width: 15%;
+  max-width: 470px;
   margin-top: 1.5em;
+  border-style: outset;
+  border-radius: 9px;
+  padding: 0.5rem;
 }
 
 .forecast-summary__description {
@@ -23,4 +28,19 @@
   background-color: #56ffac;
   color: #00003c;
   cursor: pointer;
+}
+
+@media only screen and (max-width: 991px) {
+  .forecast-summary {
+    width: 100%;
+    margin: 1rem auto;
+    padding: 1rem 0;
+  }
+
+  .forecast-summary__date, 
+  .forecast-summary__temperature, 
+  .forecast-summary__description,
+  .forecast-summary button {
+    font-size: 1.5rem;
+  }
 }

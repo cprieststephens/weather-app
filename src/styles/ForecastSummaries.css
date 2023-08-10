@@ -3,3 +3,11 @@
   justify-content: space-between;
   margin-bottom: 2em;
 }
+
+@media only screen and (max-width: 991px) {
+  .forecast-summaries {
+    flex-direction: column;
+    width: 80%;
+    margin: 0 auto;
+  }
+}
