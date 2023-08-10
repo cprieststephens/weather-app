@@ -1,9 +1,12 @@
 .forecast-details {
+  background-color: #b3e2fe;
   align-self: center;
   text-align: center;
-  background-color: #fff;
   padding: 1em;
+  border-style: outset;
   border-radius: 9px;
+  min-width: 210px;
+  max-width: 340px;
 }
 
 .forecast-details__date {
@@ -12,4 +15,12 @@
 
 .forecast-details__bold {
   font-weight: bold;
+}
+
+@media only screen and (max-width: 991px) {
+  .forecast-details {
+    margin-bottom: 1rem;
+    width: 40%;
+    font-size: 1.2rem;
+  }
 }

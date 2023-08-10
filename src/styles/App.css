@@ -5,12 +5,34 @@
   flex-direction: column;
   font-family: 'Raleway', sans-serif;
   background-color: #92d5fd;
-  margin: 2rem auto;
+  margin: 0 auto;
   padding: 2rem;
   border-radius: 9px;
-  min-width: 320px;
+  min-width: 310px;
   max-width: 1000px;
 }
 
+.weather-app__top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+
+@media only screen and (max-width: 991px) {
+  .weather-app__top {
+    background-color: #92d5fd;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    position: fixed;
+    top: 2rem;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 1rem;
+    border-style: outset;
+    border-radius: 9px;
+  }
+}
 
 
