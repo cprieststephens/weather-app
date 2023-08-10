@@ -6,17 +6,15 @@
   font-family: 'Raleway', sans-serif;
   background-color: #92d5fd;
   margin: 0 auto;
-  padding: 2rem;
   border-radius: 9px;
   min-width: 310px;
-  max-width: 1000px;
+  padding: 17% 10%;
 }
 
 .weather-app__top {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1rem;
 }
 
 @media only screen and (max-width: 991px) {

@@ -4,11 +4,20 @@
   margin-bottom: 2em;
 }
 
-@media only screen and (max-width: 991px) {
+@media only screen and (max-width: 767px) {
   .forecast-summaries {
     flex-direction: column;
     width: 80%;
     margin: 0 auto;
     margin: 20rem auto 0 auto;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .forecast-summaries {
+    flex-direction: column;
+    width: 80%;
+    margin: 0 auto;
+    margin: 18rem auto 0 auto;
   }
 }
