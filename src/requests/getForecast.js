@@ -22,12 +22,15 @@ const getForecast = (
       setLocation(response.data.location);
     })
     .catch((error) => {
-      const { status } = error.response;
+      const { status } = error.response || {};
       if (status === 404) {
-        setErrorMessage("No such town or city, try again");
+        setErrorMessage("No such town or city, please try again.");
       }
       if (status === 500) {
-        setErrorMessage("Oops, server error, try again later");
+        setErrorMessage("Oops, server error, please try later.");
+      }
+      if (!error.response) {
+        setErrorMessage("Something went wrong, please try later.");
       }
     });
 };
