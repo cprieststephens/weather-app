@@ -2,7 +2,7 @@
   background-color: #b3e2fe;
   align-self: center;
   text-align: center;
-  padding: 1em;
+  padding: 1rem;
   border-style: outset;
   border-radius: 9px;
   min-width: 210px;
@@ -10,7 +10,7 @@
 }
 
 .forecast-details__date {
-  font-size: 1.5em;
+  font-size: 1.5rem;
 }
 
 .forecast-details__bold {
