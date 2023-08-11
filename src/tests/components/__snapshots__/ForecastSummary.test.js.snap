@@ -16,7 +16,7 @@ exports[`ForecastSummary renders correctly 1`] = `
       data-testid="forecast-icon"
     >
       <img
-        alt="icon"
+        alt="Stub description"
         src="https://openweathermap.org/img/wn/01d@2x.png"
       />
     </div>

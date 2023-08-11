@@ -1,4 +1,4 @@
-import { render } from "@testing-library/react";
+import { render, waitFor } from "@testing-library/react";
 import axios from "axios";
 import App from "../../components/App";
 
@@ -29,7 +29,9 @@ describe("App", () => {
       },
     };
     jest.spyOn(axios, "get").mockResolvedValue(mockData);
-    const { asFragment } = await render(<App />);
-    expect(asFragment()).toMatchSnapshot();
+    const { asFragment } = render(<App />);
+    await waitFor(() => {
+      expect(asFragment()).toMatchSnapshot();
+    });
   });
 });

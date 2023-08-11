@@ -5,21 +5,26 @@ exports[`App renders correctly 1`] = `
   <div
     class="weather-app"
   >
-    <h1>
-      , 
-    </h1>
     <div
-      class="search-form"
+      class="weather-app__top"
     >
-      <input
-        type="text"
-        value=""
-      />
-      <button
-        type="submit"
+      <div
+        class="search-form"
       >
-        Search
-      </button>
+        <input
+          placeholder="Manchester"
+          type="search"
+          value=""
+        />
+        <button
+          type="submit"
+        >
+          Search
+        </button>
+      </div>
+      <h1>
+        , 
+      </h1>
     </div>
     <div
       class="forecast-summaries"

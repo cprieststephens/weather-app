@@ -19,7 +19,7 @@ exports[`ForecastSummaries renders correctly 1`] = `
         data-testid="forecast-icon"
       >
         <img
-          alt="icon"
+          alt="Stub description 1"
           src="https://openweathermap.org/img/wn/01d@2x.png"
         />
       </div>
@@ -53,7 +53,7 @@ exports[`ForecastSummaries renders correctly 1`] = `
         data-testid="forecast-icon"
       >
         <img
-          alt="icon"
+          alt="Stub description 2"
           src="https://openweathermap.org/img/wn/13d@2x.png"
         />
       </div>
