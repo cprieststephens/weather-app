@@ -1,11 +1,9 @@
 import { useEffect, useState } from "react";
-
 import LocationDetails from "./LocationDetails";
 import SearchForm from "./SearchForm";
 import ForecastSummaries from "./ForecastSummaries";
 import ForecastDetails from "./ForecastDetails";
 import getForecast from "../requests/getForecast";
-
 import "../styles/App.css";
 
 function App() {
