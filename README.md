@@ -1,8 +1,8 @@
 # Weather App
 
-<img src="src/img/Screenshot.png" alt="Screenshot of Weather App interface" title="Weather App" width="400px"><br>
+<img src="src/img/weather-screenshot-2.jpg" alt="Screenshot of Weather App interface" title="Weather App" width="600px"><br>
 
-I built this app using React and JavaScript as a project for Command Shift bootcamp. It was created using the npx script `create-react-app`. I wrote the tests using Jest and React Testing Library.
+I built this app using React and JavaScript as a project for Command Shift bootcamp. It was created using the npx script `create-react-app`. I wrote the tests using Jest and React Testing Library. [You can view the Weather App here.](https://check-the-forecast.netlify.app/)
 
 Features:
 - Users can search for a forecast by city.
