@@ -38,7 +38,7 @@ exports[`ForecastDetails renders correctly 1`] = `
       >
         Wind speed:
       </span>
-       10 mph
+       10mph
     </div>
   </div>
 </DocumentFragment>

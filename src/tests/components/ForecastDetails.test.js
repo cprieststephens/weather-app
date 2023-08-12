@@ -33,7 +33,7 @@ describe("ForecastDetails", () => {
       (_, element) => element.textContent === "Humidity: 15 %"
     );
     const windSpeedText = getByText(
-      (_, element) => element.textContent === "Wind speed: 10 mph"
+      (_, element) => element.textContent === "Wind speed: 10mph"
     );
 
     expect(getByText("Thu Jan 01 1970")).toBeInTheDocument();

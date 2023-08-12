@@ -19,7 +19,8 @@ function ForecastDetails({ forecast }) {
         <span className="forecast-details__bold">Humidity:</span> {humidity} %
       </div>
       <div>
-        <span className="forecast-details__bold">Wind speed:</span> {wind.speed} mph
+        <span className="forecast-details__bold">Wind speed:</span> {wind.speed}
+        mph
       </div>
     </div>
   );
