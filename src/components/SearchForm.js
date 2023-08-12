@@ -5,6 +5,7 @@ function SearchForm({ searchText, setSearchText, onSubmit }) {
   return (
     <div className="search-form">
       <input
+        className="search-form__input"
         type="search"
         placeholder="Manchester"
         onChange={handleInputChange}
